@@ -1,0 +1,24 @@
+<!-- res/menu/menu_main.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/button_insert"
+        android:title="Insert"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/edit_mssv"
+        android:title="Edit MSSV"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/edit_hoten"
+        android:title="Edit Ho Ten"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/button_get_all"
+        android:title="Get All"
+        app:showAsAction="never" />
+</menu>
